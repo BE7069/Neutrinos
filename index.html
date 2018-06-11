@@ -9,100 +9,171 @@
 
 <body>
 
-  <div id="wrapper">
-    <div class="row">
-      <div class="column-side">
-        <ul id="side-navigation">
-          <li> <a href="#" class="current">
-             <img src="images/home.jpg" alt="home" 
-             style="width:20px;height:20px;border:0;"><br>Home
-          </a></li>
-          <li><a href="#">
-             <img src="images/profile.jpg" alt="profile" 
-             style="width:20px;height:20px;border:0;"><br>Profile
-          </a></li>
-          <li><a href="#">
-             <img src="images/pages.jpg" alt="pages" 
-             style="width:20px;height:20px;border:0;"><br>Pages
-          </a></li>
-          <li><a href="#">
-             <img src="images/overview.jpg" alt="overview" 
-             style="width:20px;height:20px;border:0;"><br>Overview
-          </a></li>
-          <li><a href="#">
-             <img src="images/photos.png" alt="photos" 
-             style="width:20px;height:20px;border:0;"><br>Photos
-          </a></li>
-          <li><a href="#">
-             <img src="images/community.png" alt="community" 
-             style="width:20px;height:20px;border:0;"><br>Community
-          </a></li>
-          <li><a href="#">
-             <img src="images/more.png" alt="more" 
-             style="width:20px;height:20px;border:0;"><br>More
-          </a></li>
-        </ul>
-      </div>
-    </div>
+    <div class="grid-container">
+       <div class="menu">
+          <ul id="side-navigation">
+            <li> <a href="#" class="current">
+               <img src="images/home.jpg" alt="home" 
+               style="width:20px;height:20px;border:0;"><br>Home
+            </a></li>
+            <li><a href="#">
+               <img src="images/profile.jpg" alt="profile" 
+               style="width:20px;height:20px;border:0;"><br>Profile
+            </a></li>
+            <li><a href="#">
+               <img src="images/pages.jpg" alt="pages" 
+               style="width:20px;height:20px;border:0;"><br>Pages
+            </a></li>
+            <li><a href="#">
+               <img src="images/overview.jpg" alt="overview" 
+               style="width:20px;height:20px;border:0;"><br>Overview
+            </a></li>
+            <li><a href="#">
+               <img src="images/photos.png" alt="photos" 
+               style="width:20px;height:20px;border:0;"><br>Photos
+            </a></li>
+            <li><a href="#">
+               <img src="images/community.png" alt="community" 
+               style="width:20px;height:20px;border:0;"><br>Community
+            </a></li>
+            <li><a href="#">
+               <img src="images/more.png" alt="more" 
+               style="width:20px;height:20px;border:0;"><br>More
+            </a></li>
+          </ul>
+       </div>
    
+       <div class="header">
+         <img src="images/dogs.jpg" alt="dogs" width=100% height=200px/>
+         
+       </div>
 
-<header>
-   <img src="images/dogs.jpg" alt="dogs" />
-    <img src="images/main_profile.jpg" alt="picture of puppy" />
-</header>
+       <div class="top-navigation">  
+         <ul>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Posts</a></li>
+           <li><a href="#">Photos</a></li>
+           <li><a href="#">Videos</a></li>
+           <li><a href="#">Community</a></li>
+           <li><a href="#">View profile for all</a></li>
+           <li><a href="#">link2</a></li>
+           <li><a href="#">link3</a></li>
+         </ul>
+       </div>
+       
+       /* try flexbox */
+       
+       <div class="body">
+         <img src="images/karen.jpg" alt="karen" />
+         <h3>Karen - 20 May 2018</h3>
+         
+         <p>Yesterday I tried to bake a souffle for the very first time.  It was a great success and a good
+           experience.  A definite winner for the next dinner party.</p><br>
+           <img src="images/souffle.jpg" alt="souffle" >
+                  
+          <form action="action_page.php">
+          <textarea class="comment" rows="2" cols="60" placeholder="Add comment"></textarea><br>
+          </form> <br>
 
-<div id="top-navigation">
-  <ul>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Posts</a></li>
-    <li><a href="#">Photos</a></li>
-    <li><a href="#">Videos</a></li>
-    <li><a href="#">Community</a></li>
-  </ul>
- </div>
- 
- <div class.column-middle>
- 
- <img src="images/karen.jpg" alt="karen" />
- 
- 
- <h3>Karen - 20 May 2018</h3>
- <p>Yesteday I tried to bake a pudding.  It was such a success.  See here</p>
- <img src="images/souffle.jpg" alt="souffle"/>
- <textarea class="comment" placeholder="Add comment"></textarea>
- <img src="images/june.jpg" alt="june" /> 
- <h3>June - 19 May 2018</h3>
- <p>I love the guinea fowl walking around on my lawn.</p>
- <p>Today the parents enjoyed a stroll on the grass with their littel chicks.</p>
- <img src="images/guinea_fowl.jpg" alt="guinea fowl with chicks"/>
-  <textarea class="comment" placeholder="Add comment"></textarea>
-  
- </div>
- <div class="circle">
- <h3>In your circle</h3>
- <img src="images/avril.jpg" alt="avril" />
- <img src="images/caleb.jpg" alt="caleb" />
- <img src="images/grant.jpg" alt="grant" />
- <img src="images/barbara.jpg" alt="barbara" />
- <img src="images/june.jpg" alt="june" />
- <img src="images/karen.jpg" alt="karen" />
- <img src="images/rita.jpg" alt="rita" />
- <img src="images/petro.jpg" alt="petro" />
- <img src="images/roxy.jpg" alt="roxy" />
- <img src="images/lily.jpg" alt="lily" />
- <img src="images/bella.jpg" alt="bella" />
- 
- <h3>You in other circles</h3>
- <img src="images/devin.jpg" alt="devin" />
- <img src="images/willem.jpg" alt="willem" />
- <img src="images/rob.jpg" alt="rob" />
- <img src="images/norman.jpg" alt="norman" />
- <img src="images/meagan.jpg" alt="meagan" />
- <img src="images/gavin.jpg" alt="gavin" />
- <img src="images/isabel.jpg" alt="isabel" />
- <img src="images/wanda.jpg" alt="wanda" />
- </div>
- </div>
-</div>
+         <img src="images/june.jpg" alt="june" /> 
+         <h3>June - 19 May 2018</h3>
+         
+         <p>I love the guinea fowl walking around on my lawn.</p>
+         <p>Today the parents enjoyed a stroll on the grass with their littel chicks.</p>
+         <img src="images/guinea_fowl.jpg" alt="guinea fowl with chicks"/>
+         
+         <form action="action_page.php"></form>
+         <textarea class="comment" rows="2" cols="60" placeholder="Add comment"></textarea>
+         </form>
+       </div>
+
+       <div class="circles">
+         <h3>In your circle</h3>
+         <div class="flex-container">
+        <div>
+         <img src="images/avril.jpg" alt="avril"
+         style="width:50px;height:50px;border:0;" />
+         </div>
+         <div>
+         <img src="images/caleb.jpg" alt="caleb"
+         style="width:50px;height:50px;border:0;"  />
+        </div>
+        <div>
+         <img src="images/grant.jpg" alt="grant"
+         style="width:50px;height:50px;border:0;"  />
+        </div>
+        <div>
+         <img src="images/barbara.jpg" alt="barbara" 
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/june.jpg" alt="june"
+         style="width:50px;height:50px;border:0;"  />
+        </div>
+        <div>
+         <img src="images/karen.jpg" alt="karen" 
+         style="width:50px;height:50px;border:0;"  />
+        </div>
+        <div>
+         <img src="images/rita.jpg" alt="rita" 
+         style="width:50px;height:50px;border:0;" />
+         </div>
+         <div>
+         <img src="images/petro.jpg" alt="petro"
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/roxy.jpg" alt="roxy" 
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/lily.jpg" alt="lily" 
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        </div>
+        
+         <h3>You in other circles</h3>
+         <div class="flex-container">
+           <div>
+         <img src="images/bella.jpg" alt="bella"
+         style="width:50px;height:50px;border:0;"  />
+        </div>
+        <div>
+         <img src="images/devin.jpg" alt="devin"
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/willem.jpg" alt="willem"
+         style="width:50px;height:50px;border:0;"  />
+        </div>
+        <div>
+         <img src="images/rob.jpg" alt="rob" 
+         style="width:50px;height:50px;border:0;" />
+
+        </div>
+
+        <div>
+         <img src="images/norman.jpg" alt="norman"
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/meagan.jpg" alt="meagan" 
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/gavin.jpg" alt="gavin" 
+         style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+           <img src="images/isabel.jpg" alt="isabel" 
+           style="width:50px;height:50px;border:0;" />
+        </div>
+        <div>
+         <img src="images/wanda.jpg" alt="wanda" 
+         style="width:50px;height:50px;border:0;" />
+        </div>
+       </div>
+       </div>
+    </div>
 </body>
 </html>
